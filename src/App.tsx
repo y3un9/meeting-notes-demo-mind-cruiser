@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { isSameDay, parse, format } from 'date-fns'
 import './App.css'
-import logo from './asset/logo.svg'
-import iconChevronUp from './asset/icon-chevron-up.svg'
+import logo from './assets/logo.svg'
+import iconChevronUp from './assets/icon-chevron-up.svg'
 
 export type Note = {
   /** 唯一ID */
